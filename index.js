@@ -13,7 +13,7 @@ const MONGO_DB = 'MyDb';
 const { response } = require('express')
 const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
 app.use(express.json())
-
+let str = 'hello world'
 
 
 const start = async () => {
